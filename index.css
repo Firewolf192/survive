@@ -21,3 +21,60 @@
     min-height: 50px;
   
 }
+
+
+.buttonStyle
+{
+    width: 36%;
+    font-size: large;
+    border-radius: 30px;
+    border:none;
+    cursor: pointer;
+    background-color: burlywood;
+    transition: background-color 0.3s ease;
+
+
+}
+.buttonStyle:hover
+{
+    background-color: antiquewhite;
+    
+}
+
+
+
+#m
+{   
+    transition: opacity 0.5s ease;
+    opacity: 1;
+    
+}
+
+#m.hidden
+{
+    opacity: 0;
+}
+
+.list
+{
+    max-width: 300px;
+    font-size: 30px;
+
+}
+
+
+.hide
+{
+    display: none;
+}
+
+#l
+{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+#l.hide
+{
+    opacity: 0;
+}
