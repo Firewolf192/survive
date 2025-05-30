@@ -1,5 +1,4 @@
 
-
 .settings
 {
     display: flex;
@@ -16,7 +15,9 @@
 .buttonSettings
 {
     display: flex;
-    max-width: 824px;
-    min-width: 824px;
+    max-width: 800px;
+    min-width: 800px;
+    max-height: 50px;
+    min-height: 50px;
   
 }
