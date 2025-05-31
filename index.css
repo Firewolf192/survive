@@ -1,4 +1,8 @@
 
+html
+{
+    overflow: scroll;
+}
 
 .cointainer
 {   
@@ -10,7 +14,6 @@
     margin-bottom: auto;
     margin-left: auto;
     margin-right: auto;
-    overflow: scroll;
  
    
 }
@@ -22,7 +25,6 @@
     justify-content: center;
     height: auto;
     gap: 180px;
-    overflow: scroll;
 }
 
 .title
@@ -72,8 +74,7 @@
     justify-content: center;
     position:absolute;
     top: 200px;
-    left: -200px;
-    overflow: scroll;
+   
     
 }
 
@@ -82,10 +83,10 @@
     width:100%;
     display: flex;
     justify-content: center;
-    position:absolute;
-    top: 200px;
-    left: 110px;
-    overflow: scroll;
+    position: absolute;
+    top: 300px;
+    gap: 50px;
+   
     
 }
 
@@ -124,18 +125,17 @@
    
 }
 
-#list
-{   opacity: 1;
-    transition: opacity 0.5s ease;
-}
 
-#list.hidden
-{
-    opacity: 0;
-}
+
 .subjects2
 {
     font-size: 30px;
     color: white;
     list-style: none;
+}
+
+
+.hidden
+{
+    display: none;
 }
