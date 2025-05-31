@@ -1,8 +1,137 @@
-.box
-{
+
+
+.cointainer
+{   
+    width:100%;
+    display: flex;
+    justify-content: center;
     height: auto;
-    width: 50%;
-    box-sizing: border-box;
-    float: left;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+ 
+   
 }
 
+.cointainer2
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    height: auto;
+    gap: 180px;
+}
+
+.title
+{
+    font-size: 50px;
+}
+
+.box
+{   
+  
+    border-radius: 30px;
+    width: 10;
+    height: 10;
+}
+
+.box2
+{   
+  
+    border-radius: 30px;
+    width: auto;
+    height: auto;
+}
+
+.button
+{
+    width: 120px;
+    height: 50px;
+    border-radius: 30px;
+    border: solid 2px cyan;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 1s ease;
+    transition: height 1s ease;
+    font-size: large;
+}
+
+.button:hover
+{
+    background-color: cyan;
+    height: 100px;
+}
+
+.cointainer3
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 200px;
+    left: -200px;
+    
+}
+
+.cointainer4
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    position:absolute;
+    top: 200px;
+    left: 110px;
+    
+}
+
+
+.subjects
+{
+    font-size: 30px;
+    color: white;
+    list-style: none;
+}
+
+
+
+#subjects
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+
+#subjects.hidden
+{
+    opacity: 0;
+   
+}
+
+#teachers
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#teachers.hidden
+{
+    opacity: 0;
+   
+}
+
+#list
+{   opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#list.hidden
+{
+    opacity: 0;
+}
+.subjects2
+{
+    font-size: 30px;
+    color: white;
+    list-style: none;
+}
