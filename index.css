@@ -1,18 +1,8 @@
-.settings
+.box
 {
-    display: flex;
-    justify-content: center;
+    height: auto;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
 }
 
-.images
-
-{
-    display: flex;
-    justify-content: space-around;
-}
-
-.button
-{
-    display: flex;
-    justify-content: space-around;
-}
