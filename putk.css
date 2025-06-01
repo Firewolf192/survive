@@ -70,7 +70,7 @@
 .list
 {
     font-size: 2vw;
-    margin-left: 5vw;
+    margin-left: 4vw;
     padding: 0.5vw;
     list-style: none;
    
@@ -179,6 +179,111 @@
 }
 
 #list4.hidden
+{
+    opacity: 0;
+}
+
+
+
+#l5
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#l5.hidden
+{
+    opacity: 0;
+}
+
+
+
+#list5
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#list5.hidden
+{
+    opacity: 0;
+}
+
+
+
+#l6
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#l6.hidden
+{
+    opacity: 0;
+}
+
+
+
+#list6
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#list6.hidden
+{
+    opacity: 0;
+}
+
+
+
+
+#l7
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#l7.hidden
+{
+    opacity: 0;
+}
+
+
+
+#list7
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#list7.hidden
+{
+    opacity: 0;
+}
+
+
+
+#l8
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#l8.hidden
+{
+    opacity: 0;
+}
+
+
+
+#list8
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#list8.hidden
 {
     opacity: 0;
 }
