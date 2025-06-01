@@ -1,0 +1,80 @@
+
+html
+{
+    overflow: scroll;
+}
+
+.cointainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title
+{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+
+.cointainer2
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.images
+{
+    width: 300px;
+    height: 300px;
+    margin-left: 100px;
+    border: solid 10px black;
+    border-radius: 30%;
+    transition: border-color 0.5s ease;
+    cursor: pointer;
+}
+
+.images:hover
+{
+    border-color: aqua;
+    width: 350px;
+    height: 350px;
+}
+
+
+.datas1
+{
+    font-size: 30px;
+    margin-left: 140px;
+}
+
+
+.datas2
+{
+    font-size: 30px;
+    margin-left: 140px;
+}
+
+
+.datas3
+{
+    font-size: 30px;
+    margin-left: 140px;
+}
+
+
+.datas4
+{
+    font-size: 30px;
+    margin-left: 140px;
+}
+
+
+.list
+{
+    font-size: 30px;
+    margin-left: 180px;
+}
