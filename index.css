@@ -36,8 +36,8 @@ html
 {   
   
     border-radius: 30px;
-    width: 10;
-    height: 10;
+    width: auto;
+    height: auto;
 }
 
 .box2
@@ -96,22 +96,14 @@ html
     font-size: 30px;
     color: white;
     list-style: none;
+    cursor: pointer;
 }
 
-
-
-#subjects
+.st:hover
 {
-    opacity: 1;
-    transition: opacity 0.5s ease;
+    font-size: 40px;
 }
 
-
-#subjects.hidden
-{
-    opacity: 0;
-   
-}
 
 #teachers
 {
