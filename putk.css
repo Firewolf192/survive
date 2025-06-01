@@ -1,80 +1,184 @@
 
-html
-{
-    overflow: scroll;
-}
 
 .cointainer
 {
     width: 100%;
     display: flex;
     justify-content: center;
+    margin-top: 1vw;
 }
 
 .title
 {
-    font-size: 40px;
-    margin-bottom: 100px;
+    font-size: 3vw;
 }
 
 .cointainer2
 {
-    width: 100%;
     display: flex;
     justify-content: center;
+    margin-right: 6vw;
+   
+  
 }
 
+.cointainer3
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 3vw;
+ 
+   
+  
+}
+.cointainer4
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 1vw;
+   
+  
+}
 
 
 .images
 {
-    width: 300px;
-    height: 300px;
-    margin-left: 100px;
-    border: solid 10px black;
+    width: 11vw;
+    height: 11vw;
+    border: solid 0.5vw black;
     border-radius: 30%;
     transition: border-color 0.5s ease;
     cursor: pointer;
+    margin-left: 10vw;
+ 
 }
 
 .images:hover
 {
     border-color: aqua;
-    width: 350px;
-    height: 350px;
 }
 
 
-.datas1
+.datas
 {
-    font-size: 30px;
-    margin-left: 140px;
+
+    font-size: 2vw;
 }
 
-
-.datas2
-{
-    font-size: 30px;
-    margin-left: 140px;
-}
-
-
-.datas3
-{
-    font-size: 30px;
-    margin-left: 140px;
-}
-
-
-.datas4
-{
-    font-size: 30px;
-    margin-left: 140px;
-}
 
 
 .list
 {
-    font-size: 30px;
-    margin-left: 180px;
+    font-size: 2vw;
+    margin-left: 5vw;
+    padding: 0.5vw;
+    list-style: none;
+   
+}
+
+.nag
+{
+    font-size: 2vw;
+    margin-left: 1vw;
+  
+}
+
+
+
+#l
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+
+#l.hidden
+{
+    opacity: 0;
+}
+
+#list1
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#list1.hidden
+{
+    opacity: 0;
+}
+
+
+
+
+#l2
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+
+#l2.hidden
+{
+    opacity: 0;
+}
+
+#list2
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#list2.hidden
+{
+    opacity: 0;
+}
+
+
+#l3
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+
+#l3.hidden
+{
+    opacity: 0;
+}
+
+#list3
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#list3.hidden
+{
+    opacity: 0;
+}
+
+
+
+#l4
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+
+#l4.hidden
+{
+    opacity: 0;
+}
+
+#list4
+{
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+#list4.hidden
+{
+    opacity: 0;
 }
